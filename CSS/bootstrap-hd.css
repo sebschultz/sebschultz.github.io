@@ -1,11 +1,25 @@
-#opening{
- height:100vh;
-}
-
+/*pushes down my h1 element, increases the size of my h2*/
 h1{
-  padding-top:50vh;
+padding-top:50px;
 }
 
+h2{
+  font-size:1em;
+}
+/*indents the p elements for readability*/
+p{
+  text-indent:1em;
+}
+
+/*turns the blockquote red to make it pop a little more*/
 .blockquote{
-  color:red;
+  color:#ff8080;
+  padding-bottom:2em;
+  padding-top:2em;
+}
+
+/*turns the caption for the table red and makes it a little smaller*/
+.caption{
+  color:#ff8080;
+  font-size:12px;
 }

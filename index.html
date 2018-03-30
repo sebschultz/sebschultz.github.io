@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+  <header>
     <title>Holocaust Documentaries</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!--my stylesheets -->
-    <link rel="stylesheet" href="../wrhd/bootstrap-hd.css">
-  </head>
+    <link rel="stylesheet" href="CSS/bootstrap-hd.css">
 
   <body id="body">
-  <div id="opening" class="jumbotron text-center">
-  <h1>Women in Holocaust Documentaries</h1>
-  <p>a small survey of popular Holocaust documentaries</p>
+    <!--start of jumbotron-->
+  <div id="opening" class="jumbotron jumbotron-fluid text-center">
+  <h1 class="display-3">Women in Holocaust Documentaries</h1>
+  <h2>a small survey of popular Holocaust documentaries</h2>
+  <br><br>
+  <h2>Sebastian Schultz, University of Louisville</h2>
+  <h2>advisor Dr. Ann Taylor Allen, readers Drs. Michael Johmann and Michael Williams</h2>
   <br>
   <br>
+  <!--day/night mode toggle-->
   <div class="container">
     <div class="btn-group btn-group-justified">
   <div class="btn-group">
@@ -27,13 +31,16 @@
   </div>
 </div>
   </div>
-  <p>toggle night-mode</p>
+  <h2>toggle night-mode</h2>
+  <!--end day/night toggle-->
   </div>
-  </head>
+  <!--end jumbotron-->
+</header>
 
+<!--table for quick reference-->
 <div class="container">
   <table class="table table-sm table-hover">
-    <caption>documentaries featured</caption>
+    <caption class="caption">documentaries featured</caption>
     <thead>
     <tr>
       <th scope="col">Year</th>
@@ -90,11 +97,24 @@
   </tbody>
 </table>
 </div>
+<!--end table and container-->
+
+<!--start essay content; html is written in such a way that screenreaders will recognize citations/quotes; abbreviations indicate content on hover; citations are linked by IDs #fn and #rf, clicking a note will jump to the bottom footnotes, end marker on footnote will jump back to place in text.-->
 
   <div class="container introduction">
     <p>Historically, intellectuals have grappled with how, exactly, to represent the Holocaust. Many discuss the "unrepresentability " of the Holocaust. In Alain Resnais&#146s <cite>Night and Fog</cite>, the narrator Michel Bouquet, addresses the audience:</p>
 
-      <blockquote class="blockquote "><p>Who does know anything? The reality of these camps, despised by those who built them, and unfathomable to those who endured them - what hope do we have of truly capturing this reality?<sup><a href= "#fn1" id="ref1">1</a></sup></p></blockquote>
+    <div class="card">
+      <div class="card-header">
+        Quote
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote text-center mb-0"> Who does know anything? The reality of these camps, despised by those who built them, and unfathomable to those who endured them - what hope do we have of truly capturing this reality?<sup><a href= "#fn1" id="ref1">1</a></sup>
+          <footer class="blockquote-footer">narrator Michel Bouquet,<cite title="Source Title"> Night and Fog</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+    <br>
 
     <p>Bouquet appeals to an idea that we can never express the suffering of those systematically dehumanized and killed; that the state of emotions felt by victims and survivors cannot be replicated without the context of concentration camps and murder, and that any film which attempts to do so is inherently lacking. Despite this, filmmakers (including Resnais himself), have been representing the Holocaust in film since the end of <abbr title="Second World War" class="abbr">WWII</abbr>, and rather than merely struggling with "unrepresentability," they have also grappled with gendered representations of the Holocaust.</p>
 
@@ -110,24 +130,32 @@
 
     <p>An extreme emphasis is placed on Auschwitz, perhaps due to the influential early English narratives of Primo Levi, Anne Frank, and Elie Wiesel. This can also be contributed to the fact that Auschwitz, as a combination of labor and extermination camp, had a number of survivors, especially among Hungarian Jewish people, who were not deported from Hungary until spring of 1944. This primary public focus on one concentration camp has also contributed to a homogenization of popular narrative, especially dangerous in this case given that very few camps were an official combination of labor and extermination.<sup><a href="#fn6" id="ref6">6</a></sup> Given this trend and the lack of early English translations of narratives by women, this neglect of women is, in part, due to two assumptions: first, that Holocaust narratives are stereotypical, and secondly, that the monolithic Holocaust stereotype is purely based on men&#146s experiences.</p>
   </div>
+  <!--end essay content-->
+
   <br><br>
-<div class="container footnotes">
-  <p><sup id="fn1">1. <cite>Night and Fog</cite>, directed by Alain Resnais. DVD. The Criterion Collection. 23 June 2003.<a href="#ref1" title="Jump back to footnote ">&#8971;</a></sup></p>
+  <!--start footnotes-->
 
-  <p><sup id="fn2">2. Gabriel Schoenfeld, <q>Auschwitz and the Professors,</q> <cite>Commentary</cite> 105.6 (June 1998), 44.<a href="#ref2 " title="Jump back to footnote ">&#8971;</a></sup></p>
+  <div class="card footnotes text-right">
+    <div class="card-body">
+      <p><sup id="fn1">1. <cite>Night and Fog</cite>, directed by Alain Resnais. DVD. The Criterion Collection. 23 June 2003.<a href="#ref1" title="Jump back to footnote ">&#8971;</a></sup></p>
 
-  <p><sup id="fn3">3. Schoenfeld, 44.<a href="#ref3 " title="Jump back to footnote ">&#8971;</a></sup></p>
+      <p><sup id="fn2">2. Gabriel Schoenfeld, <q>Auschwitz and the Professors,</q> <cite>Commentary</cite> 105.6 (June 1998), 44.<a href="#ref2 " title="Jump back to footnote ">&#8971;</a></sup></p>
 
-  <p><sup id="fn4">4. Naama Shik, <a href="http://www.yadvashem.org/yv/en/education/newsletter/12/main_article.asp" target="_blank" title="visit source"><q>Why Study the Issue of Women during the Holocaust? Central Trends in Gender Oriented Historiography of the Holocaust,</a></q> <cite>Yad Vashem</cite> (Accessed February 4, 2014).<a href="#ref4 " title="Jump back to footnote">&#8971;</a></sup></p>
+      <p><sup id="fn3">3. Schoenfeld, 44.<a href="#ref3 " title="Jump back to footnote ">&#8971;</a></sup></p>
 
-  <p><sup id="fn5">5. Dalia Ofer and Lenore F. Weitzman. <q>Introduction: The Role of Gender in the Holocaust.</q> <cite>Women in the Holocaust</cite>, edited by Dalia Ofer and Lenore F. Weitzman (London:Yale Univeristy Press, 1998), 1.<a href="#ref5" title="Jump back to footnote ">&#8971;</a></sup></p>
+      <p><sup id="fn4">4. Naama Shik, <a href="http://www.yadvashem.org/yv/en/education/newsletter/12/main_article.asp" target="_blank" title="visit source"><q>Why Study the Issue of Women during the Holocaust? Central Trends in Gender Oriented Historiography of the Holocaust,</a></q> <cite>Yad Vashem</cite> (Accessed February 4, 2014).<a href="#ref4 " title="Jump back to footnote">&#8971;</a></sup></p>
 
-  <p><sup id="fn6 ">6. Note: while labor camps were not labeled "concentration camps, " they had the express purpose of working Jewish people to death.<a href="#ref6 " title="Jump back to footnote ">&#8971;</a></sup></p>
-</div>
+      <p><sup id="fn5">5. Dalia Ofer and Lenore F. Weitzman. <q>Introduction: The Role of Gender in the Holocaust.</q> <cite>Women in the Holocaust</cite>, edited by Dalia Ofer and Lenore F. Weitzman (London:Yale Univeristy Press, 1998), 1.<a href="#ref5" title="Jump back to footnote ">&#8971;</a></sup></p>
+
+      <p><sup id="fn6 ">6. Note: while labor camps were not labeled "concentration camps, " they had the express purpose of working Jewish people to death.<a href="#ref6 " title="Jump back to footnote ">&#8971;</a></sup></p>
+    </div>
+  </div>
+
+<!--end footnotes-->
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../wrhd/bootstrap-hd.js"></script>
+    <script src="JS/bootstrap-hd.js"></script>
 
   <!-- Popper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
